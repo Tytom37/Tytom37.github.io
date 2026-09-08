@@ -70,6 +70,10 @@
             opacity: 0.6;
             letter-spacing: 0.05em;
             text-transform: uppercase;
+
+            @media (max-width: 768px) {
+                flex: 0 0 auto;
+            }
         }
     }
 }
